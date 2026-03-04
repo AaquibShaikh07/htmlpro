@@ -68,7 +68,8 @@ public void subject(String sname) {
 System.out.println("Subject name is: " + sname);
 }
 public static void main(String[] args) { Main mystud = new Main();
-mystud.student(); mystud.subject("Java Programming");
+mystud.student(); 
+mystud.subject("Java Programming");
 }
 }
 
